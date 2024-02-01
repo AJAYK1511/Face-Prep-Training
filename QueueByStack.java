@@ -41,7 +41,7 @@ public class QueueByStack {
             {
                 if(stt.isEmpty() && st.isEmpty())
                 {
-                    System.out.println("Cannot Dequeue");
+                    System.out.println("Cannot Dequeue as No elements present in Queue");
                     return;
                 }
                 if(stt.isEmpty())
