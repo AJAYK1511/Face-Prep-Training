@@ -13,6 +13,7 @@ public class DjikstrasAlgorithm {
         }
         return midx;
     }
+    
     public static void find(int arr[][],int v)
     {
         int dist[]=new int[v];
@@ -59,3 +60,4 @@ public class DjikstrasAlgorithm {
         find(arr,a);
     }
 }
+
