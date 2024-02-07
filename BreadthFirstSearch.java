@@ -4,13 +4,13 @@ public class BreadthFirstSearch {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner input=new Scanner(System.in);
-        int v=input.nextInt();
-        int e=input.nextInt();
+        Scanner sc=new Scanner(System.in);
+        int v=sc.nextInt();
+        int e=sc.nextInt();
         int mat[][]=new int[v][v];
         for(int i=0;i<e;i++)
         {
-            mat[input.nextInt()][input.nextInt()]=1;
+            mat[sc.nextInt()][sc.nextInt()]=1;
         }
         Queue<Integer> q=new LinkedList<>();
         ArrayList<Integer> vis=new ArrayList<>();
