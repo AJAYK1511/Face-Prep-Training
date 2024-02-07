@@ -10,26 +10,14 @@ public class StringOpDP {
         b=sc.nextLine();
         int c=a.length();
         int d=b.length();
-        
         int arr[][]=new int[c+1][d+1];
-        if(c==0)
-        {
-            System.out.println("No of Operations "+d);
-            return;
-        }
-        if(d==0)
-        {
-            System.out.println("No of Operations "+c);
-            return;
-
-        }
         for(int i=0;i<=c;i++)
         {
-            arr[0][i]=i;
+            arr[i][0]=i;
         }
         for(int j=0;j<=d;j++)
         {
-            arr[j][0]=j;
+            arr[0][j]=j;
         }
         int res=0;
         for(int i=1;i<=c;i++)
