@@ -13,6 +13,7 @@ public class CoinChangeDP {
             carr[i]=sc.nextInt();
         }
         Arrays.sort(carr);
+        System.out.println("Enter the amount needed ");
         int rup=sc.nextInt();
         // int narr1[]=new int[rup+1];
         int narr2[]=new int[rup+1];
